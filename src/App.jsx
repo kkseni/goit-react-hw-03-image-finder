@@ -1,4 +1,3 @@
-import PostsSearchForm from './PostsSearch/PostsSearchForm/PostsSearchForm';
 export const App = () => {
   return (
     <div
@@ -10,8 +9,6 @@ export const App = () => {
         fontSize: 40,
         color: '#010101',
       }}
-    >
-      <PostsSearchForm />
-    </div>
+    ></div>
   );
 };
